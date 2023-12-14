@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #96866a;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    background: #c5b195;            
+    text-align: center;
+}
+.box h1{
+    color: white;
+    font-weight: 200;
+}
+.box input[type="number"],.box input[type="rollno"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #67563e;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25%;
+}
+.box input[type="number"]:focus,.box input[type="rollno"]:focus{
+    width: 280px;
+    border-color: #b68171;
+}
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b68171;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25%;
+    cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+    background: #b68171;
+}
+.display
+{
+    background-color: #96866a ;
+    position: absolute;
+    top: 85%;
+    left: 41%
+}
+.display input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c5b195;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25%;
+    cursor: pointer;
+    font-size: large;
+}
+.display input[type = "submit"]:hover{
+    background: #b68171;
+}
+.box2{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background: #c5b195;
+    text-align: center;
+}
+.box2 h1{
+    color: white;
+    font-weight: 200;
+}
+.box2 input[type="number"],.box input[type="rollno"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #67563e;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25%;
+}
+.box2 input[type="number"]:focus,.box input[type="rollno"]:focus{
+    width: 280px;
+    border-color: #b68171;
+}
+.box2 input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #b68171;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25%;
+    cursor: pointer;
+}
+.box2 input[type = "submit"]:hover{
+    background: #b68171;
+}
+.dispbox
+{
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #c5b195;            
+    text-align: center;
+}
+.dispbox h1{
+    color: white;
+    font-weight: 200 ;
+}
+.h2
+{
+    text-align: center;
+    color: white;
+}
